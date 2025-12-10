@@ -1,0 +1,2 @@
+Resources
+https://cdecl.org/
