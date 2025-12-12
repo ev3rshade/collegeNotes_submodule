@@ -2,7 +2,7 @@
 
 Status: Adult
 
-Tags: [[CS 314]]
+Tags: [[CS314 Class Outline]]
 
 ###### Real numbers
 > Any value that can be found on the number line
