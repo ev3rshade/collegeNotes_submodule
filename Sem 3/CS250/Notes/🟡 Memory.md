@@ -137,7 +137,7 @@ The memory hierarchy is built with these two principles in mind
 (hardware: SRAM)
 ⬆️⬇️⬆️⬇️⬆️⬇️⬆️⬇️
 
-### [[Main memory]]
+### [[🟡 Main memory]]
 (hardware: DRAM)
 ⬆️⬇️⬆️⬇️⬆️⬇️⬆️⬇️
 

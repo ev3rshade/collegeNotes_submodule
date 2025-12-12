@@ -18,8 +18,8 @@ arithmetic-logic units; 🟡
 registers and register banks; 🔴
 [[🟡 Memory]] and [[Address Spaces]]; 🔴
 memory [[🔴 Cache]]; 🔴
-physical and virtual memory (see [[Main memory]]); 🟡
-page tables ( see [[Main memory]]); 🟡
+physical and virtual memory (see [[🟡 Main memory]]); 🟡
+page tables ( see [[🟡 Main memory]]); 🟡
 DMA; 🟡
 
 ## 5. Instruction Sets
