@@ -16,4 +16,5 @@ notes - git submodule from main private obsidian backup repo
 - how to erase a commit history using branches
 - `git filter-repo`
   - `pip install git-filter-repo`
+- `git fsck`
 - `git gc`
