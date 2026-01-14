@@ -1,0 +1,160 @@
+Opened 01-12-2026 06:45
+
+Status:
+
+Tags:  [[+ program (software)]] [[+ memory]] 
+
+Prev Note: [Course Intro](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2FCourse%20Intro) Next Note: [Layers in a Computer](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%9F%A1%20Layers%20in%20a%20Computer) [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly)
+
+# 🔴 Program Structure
+## Representing Data (smallest to largest)
+
+0s 1s = 0 volts, 5 volts (traditionally)
+
+bits, bytes = one 0 or 1, 8 bits
+
+two's complement, ascii, unicode
+
+
+## Memory
+To a computer Program = array of memory 
+- In C/C++ directly access these using pointers
+- Von Neumann Architecture - Program and Data in the same memory
+
+address space
+> the range of addresses that can be represented in a given computer
+
+Memory sections
+⬇️ **0xff**
+- stack
+- shared libs
+- heap
+- bss (block started by symbol)
+- data
+- text
+⬆️ **0x00**
+
+hello.c program that prints out the address of variables at each memory section
+```
+#include   
+int a = 5; // Stored in data section  
+int b[20]; // Stored in bss  
+const char * hello = “Hello world”;  
+int main() { // Stored in text  
+	int x; // Stored in stack  
+	int *p = (int*) malloc(sizeof(int)); //Stored in heap  
+	printf(“(Data) &a=0x%lx\n”, &a)  
+	printf(“(Bss) &b[0]=0x%lx\n”, &b[0]);  
+	printf(“(Stack) &x=0x%lx\n”, &x);  
+	printf(“(Heap) p=0x%lx\n”, p);
+	printf(“(ROData) “Hello”=0x%lx\n”, hello);
+	printf(“(TEXT) main=0x%lx\n”, main);
+}
+```
+
+### characteristics of each program (memory) section
+Memory is either read/write/execute (chmod)
+
+**Stack** - local variables and return addresses; grows down
+**Heap** - memory returned when called malloc/new; grows up
+**Bss** - uninitialized globals, statics (zeroes)
+**Data** - initialized global variables
+**Text** - instructions that the program runs
+
+**Static Libraries** - a libraries loaded 
+- linked at compile time
+- code is copied into the executable
+- each program has a copy of a static library (\#include)
+
+**Dynamic Libraries** - libraries (prewritten, reusable code) shared with other processes
+- linked at run/load time
+- executable only contains references
+- has own text, data, bss
+- address space
+- process only modifies their own address space
+
+
+**Memory Gaps**
+> gaps between each memory section without memory mappings
+- program tries to access memory gap --> SEGV signal that kills program
+- core file contains values of variables global and local at the time of SEGV
+- core file can be used for "post mortem" debugging (see gdb)
+
+## Programs
+a program is a file in a special format containing the information necessary to load an application into memory and make it run 
+
+an executable is a machine readable format of a program. below are some 
+- **ELF** - Executable and Link format (UNIX e.g. Solaris, Linux)
+- **PE/COFF** - Portable and Executable/Common Object File Format (Windows)
+- a.out - now just the default name for complied files. very restrictive, not used anymore (BSD (Berkely Standard Distribution) and early UNIX)
+
+### program sections
+- machine instructions - code that makes TEXT section in program
+- initialized data - list of initialized variables and string constants defined in program; DATA and RODATA sections
+- list of shared libraries needed for execution
+- list of zero initialized memory (BSS, STACK, HEAP) that needs to me allocated before
+- defined/undefined symbols - vars, function names that the program will know when OS loads program in memory and links it with libraries
+
+
+
+### Compilation
+
+Steps
+1. C-Preprocessor
+2. Compilation/Optimization
+3. Assembly
+4. Linking
+
+![[Screenshot 2026-01-13 160123.png]]
+
+C-Preprocessor
+- `#define` `#include` `#ifdef`
+- `hello.i` temp file
+	- e.g. `#include<stdio.h>` reads file and includes in `hello.i`
+
+stop file after preprocessing
+```
+bash$ gcc -E hello.c > hello.i
+hash$ cat hello.i
+```
+
+
+Compiler ([gcc](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20gcc))
+- complies
+- generates assembly instruction
+- `hello.s`
+
+stop file after assembly
+```
+bash$ gcc -S hello.c
+```
+
+
+Assembler
+- assembles `hello.s`
+- generates `hello.o` (object file)
+
+
+Linker
+(static linker)
+- puts tgt object files (\*.o) and static libraries (\*.a - archive)
+- verifies symbols in program from static libraries
+
+
+### Loading a program
+
+**Loader** - a program that is used to run an executable file in a process
+(runtime linker)
+
+Executable File --> Loader --> Executable in memory
+
+1. Allocates space for all the sections executable file (text, data, bss)
+2. loads executable + shared libs into memory
+3. writes values in shared libs in
+4. jumps to start entry init() all libraries
+5. begins \_start (a low-level runtime function)
+	1. handled by os and C runtime library
+
+# References
+[[CS252-Slides-Sprin2026.pdf]] - Slides 9-16
+[[Chapter1-ProgramStructure.pdf]]

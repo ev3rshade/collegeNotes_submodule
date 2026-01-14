@@ -6,7 +6,7 @@ Tags: [[CS250 Computer Architecture - Class Outline]]
 
 Topic: 
 
-Prev Note: Next Note: [[Assembly]] OR [[➡️ RISC and CISC Design]]
+Prev Note: Next Note: [[6 Full Notes/College Notes/Sem 3/CS250/Notes/Assembly]] OR [[➡️ RISC and CISC Design]]
 # Instruction Sets
 > the set of commands understood by a given (computer) architecture
 > i.e. the fundamental language of a computer

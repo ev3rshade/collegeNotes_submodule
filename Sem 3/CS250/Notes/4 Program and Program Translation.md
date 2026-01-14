@@ -18,7 +18,7 @@ Prev Note: Next Note: [[🟡 Compilation]]
 ### 1.1 Machine Language
 > binary representation of machine instructions
 
-### 1.2 [[Assembly]]
+### 1.2 [[6 Full Notes/College Notes/Sem 3/CS250/Notes/Assembly]]
 
 
 ### 1.3 High-Level Language
