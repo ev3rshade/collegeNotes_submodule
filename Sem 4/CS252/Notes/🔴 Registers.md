@@ -4,7 +4,7 @@ Status:
 
 Tags: [[🔴 Assembly]]
 
-Prev note: [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly) Next Note:
+Prev note: [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly) Next Note: [Program Flow](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Program%20Flow)
 # Registers
 small, fast, temporary memory in CPU
 
@@ -56,11 +56,10 @@ physical register       different widths        purpose
 if you have more than 6 arguments
 --> remainder values passed in stack (we are not covering this)
 
+**rsp**
+---STACK NEEDS TO BE ALIGNED TO 16 BYTES
 
-
-
-STACK NEEDS TO BE ALIGNED TO 16 BYTES
-
+==**x86-64 Flags Register**==
 
 ### Argument Registers
 
@@ -128,7 +127,7 @@ main: # main()
 
 # Active Recall
 1. What is the register `rsi` used for?
-	1. 
+2. 
 
 # References
 [[CS252-Slides-Sprin2026.pdf]] slides 

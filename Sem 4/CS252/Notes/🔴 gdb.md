@@ -25,9 +25,19 @@ gdb program-name core
 gdb> where
 ```
 
+### Logging
+```
+(gdb) set logging file my_data.txt
+(gdb) set logging on
+(gdb) print my_long_variable_name
+(gdb) bt
+(gdb) set logging off
+```
+The file `my_data.txt` will now contain the output from the `print` and `bt` commands.
+## Strategies
+**Conditional breakpoints**
 
-
-##  Strategies
+**Watchpoints**
 
 **Runtime patching**
 

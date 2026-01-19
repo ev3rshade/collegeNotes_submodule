@@ -6,7 +6,13 @@ Tags:
 
 # 🔴 gcc
 
+# Assembly
 
+Assembling and running a program
+```
+4data ~/cs20 $ gcc -static -g -o t1 t1.s
+$data ~/cs250 $ ./t1
+```
 
 
 
