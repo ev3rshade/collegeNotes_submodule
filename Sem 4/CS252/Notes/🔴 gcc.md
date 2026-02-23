@@ -2,7 +2,7 @@ Opened 01-14-2026 09:13
 
 Status:
 
-Tags:
+Tags: cs252
 
 # 🔴 gcc
 
@@ -14,6 +14,10 @@ Assembling and running a program
 $data ~/cs250 $ ./t1
 ```
 
+## Linking
 
+flags
+
+`-static` - tells gcc to build a statically linked executable instead of the default dynamically linked one
 
 # References

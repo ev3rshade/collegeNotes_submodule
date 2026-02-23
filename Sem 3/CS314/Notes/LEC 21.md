@@ -1,6 +1,6 @@
 11-11-2025 13:30
 
-Status: #cs314
+Status:
 
 Tags: [[Textbook - Numerical-Method-Design-Analysis-and-Computer-Implementation-of-Algorithms.pdf]] 7.6
 

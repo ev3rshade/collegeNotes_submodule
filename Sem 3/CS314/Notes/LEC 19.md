@@ -2,7 +2,7 @@
 
 Status: #teen
 
-Tags: #cs314
+Tags:
 
 
 # Insert title

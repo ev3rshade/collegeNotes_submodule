@@ -21,7 +21,6 @@ an intermediary between the OS and software (kernel)
 - HUGE projects
 - About the LAYERS OF SOFTWARE
 
-
 ## General Course Tips
 - Best way to get questions answered is seeing Gustavo after lecture
 - This course is to prepare you to be a mature programmer (optimization, debugging)

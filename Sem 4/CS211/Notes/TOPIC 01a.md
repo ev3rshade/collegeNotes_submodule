@@ -4,7 +4,7 @@ Status:
 
 Tags:
 
-# TOPIC 01
+# TOPIC 01a
 
 ## 4 Paradigms of Coding
 1. Complete search (brute force)
@@ -18,7 +18,6 @@ Tags:
 2. Nonlinear
 3. Graph
 4. Histogram
-
-
+	1. Frequency counter
 
 # References

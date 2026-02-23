@@ -1,10 +1,10 @@
-Opened 01-12-2026 06:46
+Opened 02-04-2026 11:40
 
 Status:
 
 Tags: cs252 [[! Systems Programming]]
 
-# memory
+# + hardware
 
 
 

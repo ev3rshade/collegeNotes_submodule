@@ -2,7 +2,7 @@ Opened 01-12-2026 06:45
 
 Status:
 
-Tags:  [[+ program (software)]] [[+ memory]] 
+Tags:  cs252 [[+ program (software)]] [[+ memory]] 
 
 Prev Note: [Course Intro](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2FCourse%20Intro) Next Note: [Layers in a Computer](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%9F%A1%20Layers%20in%20a%20Computer) [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly)
 
@@ -83,11 +83,8 @@ Memory is either read/write/execute (chmod)
 ## Programs
 a program is a file in a special format containing the information necessary to load an application into memory and make it run 
 
-an executable is a machine readable format of a program. below are some 
-- **ELF** - Executable and Link format (UNIX e.g. Solaris, Linux)
-- **PE/COFF** - Portable and Executable/Common Object File Format (Windows)
-- a.out - now just the default name for complied files. very restrictive, not used anymore (BSD (Berkely Standard Distribution) and early UNIX)
-
+[Program to executable](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4Program%20to%20Executable)
+an executable is a machine readable format of a program. 
 ### program sections
 - machine instructions - code that makes TEXT section in program
 - initialized data - list of initialized variables and string constants defined in program; DATA and RODATA sections
@@ -97,63 +94,7 @@ an executable is a machine readable format of a program. below are some
 
 
 
-### Compilation
 
-Steps
-1. C-Preprocessor
-2. Compilation/Optimization
-3. Assembly
-4. Linking
-
-![[Screenshot 2026-01-13 160123.png]]
-
-C-Preprocessor
-- `#define` `#include` `#ifdef`
-- `hello.i` temp file
-	- e.g. `#include<stdio.h>` reads file and includes in `hello.i`
-
-stop file after preprocessing
-```
-bash$ gcc -E hello.c > hello.i
-hash$ cat hello.i
-```
-
-
-Compiler ([gcc](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20gcc))
-- complies
-- generates assembly instruction
-- `hello.s`
-
-stop file after assembly
-```
-bash$ gcc -S hello.c
-```
-
-
-Assembler
-- assembles `hello.s`
-- generates `hello.o` (object file)
-
-
-Linker
-(static linker)
-- puts tgt object files (\*.o) and static libraries (\*.a - archive)
-- verifies symbols in program from static libraries
-
-
-### Loading a program
-
-**Loader** - a program that is used to run an executable file in a process
-(runtime linker)
-
-Executable File --> Loader --> Executable in memory
-
-1. Allocates space for all the sections executable file (text, data, bss)
-2. loads executable + shared libs into memory
-3. writes values in shared libs in
-4. jumps to start entry init() all libraries
-5. begins \_start (a low-level runtime function)
-	1. handled by os and C runtime library
 
 # References
 [[CS252-Slides-Sprin2026.pdf]] - Slides 9-16
