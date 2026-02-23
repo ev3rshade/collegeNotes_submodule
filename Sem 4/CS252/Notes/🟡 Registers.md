@@ -2,7 +2,7 @@ Opened 01-14-2026 08:41
 
 Status:
 
-Tags: cs252 [[Assembly]]
+Tags: [[+ program (software)]] [[+ memory]]
 
 Prev note: [x85-64 Assembly Language](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20x86-64%20Assembly%20Language) Next Note: [Program Flow](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Program%20Flow)
 # Registers

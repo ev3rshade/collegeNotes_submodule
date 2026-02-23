@@ -2,7 +2,7 @@ Opened 01-28-2026 08:52
 
 Status:
 
-Tags:
+Tags: [[🟡 Assembly]]
 
 # Tips for Coding in Assembly
 

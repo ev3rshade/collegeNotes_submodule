@@ -2,9 +2,9 @@ Opened 02-11-2026 08:43
 
 Status:
 
-Tags:
+Tags: [[🔴 x86-64 Assembly Language]]
 
-# 🔴x86-64 Sections
+# 🔴 x86-64 Sections
 ## .data
 
 ## .text

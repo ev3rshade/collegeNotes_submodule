@@ -2,8 +2,9 @@ Opened 02-13-2026 08:51
 
 Status:
 
-Tags:
+Tags: [[+ program (software)]]
 
+prev: next:
 # Libraries
 
 ==what is a  library

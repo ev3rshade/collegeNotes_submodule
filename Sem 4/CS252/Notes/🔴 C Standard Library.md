@@ -2,9 +2,9 @@ Opened 02-06-2026 10:05
 
 Status:
 
-Tags:
+Tags: [[🔴 c programming]]
 
-# C Standard Library
+# c Standard Library
 (libc)
 the standard library for the C programming language
 

@@ -2,7 +2,7 @@ Opened 01-28-2026 09:03
 
 Status:
 
-Tags: cs252
+Tags: [[+ memory]]
 
 # Memory and Pointers
 

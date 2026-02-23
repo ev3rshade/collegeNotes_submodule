@@ -2,7 +2,7 @@ dOpened 01-12-2026 07:12
 
 Status:
 
-Tags: cs252
+Tags: [[6 Full Notes/College Notes/Sem 4/CS252/Notes/debugging|debugging]]
 
 # gdb
 

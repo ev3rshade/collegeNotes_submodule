@@ -2,7 +2,7 @@ Opened 01-23-2026 08:40
 
 Status:
 
-Tags: cs252
+Tags: [[🔴 x86-64 Assembly Language]]
 
 Prev: 
 # x86-64 Conventions

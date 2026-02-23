@@ -2,7 +2,7 @@ Opened 02-11-2026 08:46
 
 Status:
 
-Tags:
+Tags: [[+ program (software)]]
 
 # Program to Executable
 ### Compilation

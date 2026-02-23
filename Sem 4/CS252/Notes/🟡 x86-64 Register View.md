@@ -2,7 +2,7 @@ Opened 01-23-2026 09:47
 
 Status:
 
-Tags: cs252
+Tags: [[🟡 Registers]] [[🔴 x86-64 Assembly Language]]
 
 Prev Note: [Registers](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Registers) Next Note: [x86-64 Assembly Language](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20x86-64%20Assembly%20Language)
 

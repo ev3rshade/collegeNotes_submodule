@@ -9,6 +9,7 @@ Tags:
 incorrect sizes
 freelist handling bugs --> it's a linked list
 logic bugs --> incorrect flag setting and bad organization
+headers are addresses, just increment
 
 dummy header
 

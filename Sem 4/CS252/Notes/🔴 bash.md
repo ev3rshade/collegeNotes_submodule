@@ -2,17 +2,18 @@ Opened 02-20-2026 11:01
 
 Status:
 
-Tags:
+Tags: [[🔴 Shell Scripts]]
 
 # bash
-
-
 
 ## Syntax
 
 ## shebang
 `#!/bin/bash`
 first line of script that tells shell to execute script via bash shell
+
+tells system that it is an ELF file
+
 ### passing arguments
 `${parameter number}` for arguments
 `getopts` for flags

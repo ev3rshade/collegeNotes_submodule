@@ -2,7 +2,7 @@ Opened 02-16-2026 13:31
 
 Status:
 
-Tags:
+Tags: [[6 Full Notes/College Notes/Sem 4/CS252/Notes/debugging|debugging]]
 
 # Tips for Debugging your Labs
 

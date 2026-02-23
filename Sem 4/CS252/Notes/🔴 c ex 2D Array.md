@@ -2,7 +2,7 @@ Opened 02-19-2026 23:09
 
 Status:
 
-Tags:
+Tags: [[🔴 c programming]]
 
 # c ex 2D Array
 
