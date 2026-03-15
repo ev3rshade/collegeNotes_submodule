@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[Graphs]]
+Tags: [[+ graphs]]
 
 # Graphs
 

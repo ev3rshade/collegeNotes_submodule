@@ -2,11 +2,9 @@ Opened 12-13-2025 22:31
 
 Status:
 
-Tags: cs250
+Tags: [[9 Parallelism (improving computer execution)]]
 
 Topic: 9
-
-Prev Note: [[9 Parallelism (improving computer execution)]] Next Note: 
 
 # Execution Models and Coordination Parallel Systems
 

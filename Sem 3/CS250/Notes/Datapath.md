@@ -2,12 +2,9 @@
 
 Status: 
 
-Tags: cs250
+Tags: [[Instruction Pipelining]]
 
 Topic: 6
-
-Prev Note: [[Instruction Pipelining]] Next Note: [[🔴 8 Control and Task Management]]
-
 
 # Datapath
 >A **datapath** is the collection of hardware units that store, move, and operate on data within a processor.

@@ -2,11 +2,8 @@ Opened 23:44
 
 Status: 
 
-Tags: cs250
+Tags: [[🟡➡️ 2 Digital Logic & Circuitry]] [[🟡 5 Program Execution]] [[Computer Arithmetic]] 
 
-Topic: 2
-
-Prev Note: [[🟡➡️ 2 Digital Logic & Circuitry]] OR [[Computer Arithmetic]] Next Note: #revise
 # Arithmetic Logic Unit (ALU)
 > fundamental digital circuit in a computer's (CPU) that performs arithmetic and logical operations on binary numbers
 

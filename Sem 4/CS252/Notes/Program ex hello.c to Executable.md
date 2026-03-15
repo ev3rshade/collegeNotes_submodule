@@ -2,9 +2,9 @@ Opened 02-13-2026 08:54
 
 Status:
 
-Tags: [[🔴Program to Executable]]
+Tags: [[Program to Executable]]
 
-Prev Note: [Program to Executable](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4Program%20to%20Executable) Next Note: 
+prev: next:
 # Program ex hello.c to Executable
 
 `hello.c`

@@ -2,7 +2,7 @@ Opened 01-28-2026 08:52
 
 Status:
 
-Tags: [[🟡 Assembly]]
+Tags: [[6 Full Notes/College Notes/Sem 4/CS252/Notes/Assembly]]
 
 # Tips for Coding in Assembly
 

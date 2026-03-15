@@ -2,11 +2,10 @@ Opened 12-13-2025 22:16
 
 Status:
 
-Tags: cs250
+Tags: [[9 Parallelism (improving computer execution)]]
 
 Topic: 9
 
-Prev note: [[Processor Architecture]] Next Note: [[MIMD]]
 # SIMD
 > Single Instruction stream applied to Multiple Data streams.
 

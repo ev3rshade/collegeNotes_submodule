@@ -2,11 +2,9 @@ Opened 21:03
 
 Status:
 
-Tags: cs250
+Tags: [[4 Program and Program Translation]]
 
 Topic: 3
-
-Prev Note: [[🟡 Compilation]] Next Note: [[Loader]]
 
 # Linker
 (link editor)

@@ -2,11 +2,10 @@
 
 Status: 
 
-Tags: cs250
+Tags: [[6 Memory + Address Spaces]]
 
 Topic: 4
 
-Prev Note: [[6 Memory + Address Spaces]] Next Note: [[6 Full Notes/College Notes/Sem 3/CS250/Notes/Registers]] OR [[➡️ Cache]] OR [[🟡 Main memory]]  OR [[Disk]]
 # Memory
 > a place to store values to represent information in the machine
 
@@ -80,7 +79,7 @@ Most modern systems use byte addressing.
 > What is the hardware being used
 
 e.g.  
-Registers  
+Registers 
 SRAM  
 DRAM  
 Flash  

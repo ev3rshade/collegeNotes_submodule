@@ -2,11 +2,10 @@ Opened 15:34
 
 Status:
 
-Tags: cs250
+Tags: [[➡️ Memory]] [[4 Program and Program Translation]]
 
 Topic: 4
 
-Prev note: [[➡️ Memory]] [[4 Program and Program Translation]] Next note: 
 # Registers
 > A **register file** is a small, fast set of state elements inside the CPU.  
 > accessed using register numbers (IDs) and supply operands for instructions.

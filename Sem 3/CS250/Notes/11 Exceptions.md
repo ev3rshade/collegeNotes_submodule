@@ -2,11 +2,10 @@ Opened 01:48
 
 Status: 
 
-Tags: cs250
+Tags: [[🟡 5 Program Execution]] 
 
 Topic: 0
 
-Prev Topic: [[🟡 5 Program Execution]] Next Topic:
 
 ---
 

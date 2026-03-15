@@ -4,10 +4,6 @@ Status: cs250
 
 Tags: [[CS250 Computer Architecture - Class Outline]]
 
-Prev Topic: [[CS250 Computer Architecture - Class Outline]] Next Topic: [[🟡➡️ 2 Digital Logic & Circuitry]]
-
-Prev Note: [[Von Neumann Architecture]] Next Note: [[🟡➡️ 2 Digital Logic & Circuitry]]
-
 # Representing Data
 ## 1. Units
 ### Bits

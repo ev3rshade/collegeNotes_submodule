@@ -2,11 +2,9 @@ Opened 12-13-2025 22:18
 
 Status:
 
-Tags: cs250
+Tags: [[9 Parallelism (improving computer execution)]]
 
 Topic: 9
-
-Prev Note: [[Processor Architecture]] Next Note: 
 
 # MIMD
 > Multiple processors executing independent instruction streams.

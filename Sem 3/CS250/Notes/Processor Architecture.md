@@ -2,11 +2,10 @@ Opened 12-13-2025 22:13
 
 Status:
 
-Tags: cs250
+Tags:  [[9 Parallelism (improving computer execution)]]
 
 Topic: 9
 
-Prev Note: [[9 Parallelism (improving computer execution)]] Next Note: [[SIMD]] OR [[MIMD]] OR [[Special Parallel Architectures- Grid, MISD, and Reliability]]
 # Processor Architecture
 >the design and structure of a CPU, dictating how it processes instructions and communicates with other components
 

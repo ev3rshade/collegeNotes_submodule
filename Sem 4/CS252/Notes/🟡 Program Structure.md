@@ -6,7 +6,7 @@ Tags:  cs252 [[+ program (software)]] [[+ memory]]
 
 Prev Note: [Course Intro](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2FCourse%20Intro) Next Note: [Layers in a Computer](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%9F%A1%20Layers%20in%20a%20Computer) [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly)
 
-# 🔴 Program Structure
+# Program Structure
 ## Representing Data (smallest to largest)
 
 0s 1s = 0 volts, 5 volts (traditionally)
@@ -21,8 +21,9 @@ To a computer Program = array of memory
 - In C/C++ directly access these using pointers
 - Von Neumann Architecture - Program and Data in the same memory
 
-address space
-> the range of addresses that can be represented in a given computer
+**Address Space** - each program's view of the memory that is independent of each other.  Address range for 64-bit $0$ - $2^{64} - 1$
+- processes don't interfere with each other's address space
+
 
 Memory sections
 ⬇️ **0xff**
@@ -34,24 +35,6 @@ Memory sections
 - text
 ⬆️ **0x00**
 
-hello.c program that prints out the address of variables at each memory section
-```
-#include   
-int a = 5; // Stored in data section  
-int b[20]; // Stored in bss  
-const char * hello = “Hello world”;  
-int main() { // Stored in text  
-	int x; // Stored in stack  
-	int *p = (int*) malloc(sizeof(int)); //Stored in heap  
-	printf(“(Data) &a=0x%lx\n”, &a)  
-	printf(“(Bss) &b[0]=0x%lx\n”, &b[0]);  
-	printf(“(Stack) &x=0x%lx\n”, &x);  
-	printf(“(Heap) p=0x%lx\n”, p);
-	printf(“(ROData) “Hello”=0x%lx\n”, hello);
-	printf(“(TEXT) main=0x%lx\n”, main);
-}
-```
-
 ### characteristics of each program (memory) section
 Memory is either read/write/execute (chmod)
 
@@ -61,18 +44,7 @@ Memory is either read/write/execute (chmod)
 **Data** - initialized global variables
 **Text** - instructions that the program runs
 
-**Static Libraries** - a libraries loaded 
-- linked at compile time
-- code is copied into the executable
-- each program has a copy of a static library (\#include)
-
-**Dynamic Libraries** - libraries (prewritten, reusable code) shared with other processes
-- linked at run/load time
-- executable only contains references
-- has own text, data, bss
-- address space
-- process only modifies their own address space
-
+[[🔴 Libraries]] - Static, Dynamic
 
 **Memory Gaps**
 > gaps between each memory section without memory mappings
@@ -93,7 +65,25 @@ an executable is a machine readable format of a program.
 - defined/undefined symbols - vars, function names that the program will know when OS loads program in memory and links it with libraries
 
 
+## Examples
 
+hello.c program that prints out the address of variables at each memory section
+```
+#include   
+int a = 5; // Stored in data section  
+int b[20]; // Stored in bss  
+const char * hello = “Hello world”;  
+int main() { // Stored in text  
+	int x; // Stored in stack  
+	int *p = (int*) malloc(sizeof(int)); //Stored in heap  
+	printf(“(Data) &a=0x%lx\n”, &a)  
+	printf(“(Bss) &b[0]=0x%lx\n”, &b[0]);  
+	printf(“(Stack) &x=0x%lx\n”, &x);  
+	printf(“(Heap) p=0x%lx\n”, p);
+	printf(“(ROData) “Hello”=0x%lx\n”, hello);
+	printf(“(TEXT) main=0x%lx\n”, main);
+}
+```
 
 
 # References

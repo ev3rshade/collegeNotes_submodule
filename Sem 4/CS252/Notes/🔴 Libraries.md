@@ -21,18 +21,27 @@ static libraries are not shared
 - Static libraries are added to the executable (.a files)
 
 
-
 ### Static vs Dynamic Libraries
 
 Static - events that happen during program building
 - e.g. static linker
 - static type checking (compilation time, C/C++)
 
+**Static Libraries** - a libraries loaded 
+- linked at compile time
+- code is copied into the executable
+- each program has a copy of a static library (\#include)
+
 Dynamic - events that happen while program is running (runtime)
 - dynamic linker
 - dynamic type checking (at runtime like Python)
 
-
+**Dynamic Libraries** - libraries (prewritten, reusable code) shared with other processes
+- linked at run/load time
+- executable only contains references
+- has own text, data, bss
+- address space
+- process only modifies their own address space
 
 
 # References

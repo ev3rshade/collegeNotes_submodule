@@ -4,9 +4,6 @@ Status:
 
 Tags: [[CS250 Computer Architecture - Class Outline]]
 
-Prev Topic: [[6 Memory + Address Spaces]] Next Topic: [[🔴 8 Control and Task Management]]
-
-Prev Note: [[🟡 Address Spaces]] Next Note: 
 # Process
 > (Program execution)
 > A **process** is a program in execution together with its execution state and **private virtual address space**.

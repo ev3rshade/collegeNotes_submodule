@@ -2,12 +2,9 @@ Opened 22:38
 
 Status:
 
-Tags: cs250
+Tags: [[➡️ Memory]]
 
 Topic: 4
-
-Prev Note: [[➡️ Cache]]  Next note: [[🟡 Address Spaces]] or [[Disk]]
-
 
 # Main memory
 

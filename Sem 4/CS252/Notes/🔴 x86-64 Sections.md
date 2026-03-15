@@ -7,7 +7,11 @@ Tags: [[🔴 x86-64 Assembly Language]]
 # 🔴 x86-64 Sections
 ## .data
 
+.comm makes a global variable
+
+
 ## .text
+stores the actual executable machine instructions (read only and executable)
 
 ## .globl
 

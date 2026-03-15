@@ -2,11 +2,9 @@ Opened 12-14-2025 17:21
 
 Status:
 
-Tags:
+Tags: [[🔴 8 Control and Task Management]]
 
 Topic:
-
-Prev Note: [[🔴 8 Control and Task Management]] Next Note: 
 
 # External Devices
 

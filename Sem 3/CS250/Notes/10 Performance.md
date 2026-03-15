@@ -6,9 +6,6 @@ Tags: [[CS250 Computer Architecture - Class Outline]]
 
 Topic: 0
 
-Prev Topic: [[9 Parallelism (improving computer execution)]] Next Topic:
-
-Prev Note: Next Note:
 # Performance
 > Metrics that define how efficient a computer system is at completing work. Performance can relate to **speed**, **throughput**, **resource usage**, and **energy efficiency**.
 

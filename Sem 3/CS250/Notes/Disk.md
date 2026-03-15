@@ -2,11 +2,10 @@ Opened 22:47
 
 Status:
 
-Tags: cs250
+Tags: [[6 Memory + Address Spaces]]
 
-Topic: 4
+Topic: 6
 
-Prev Note: [[➡️ Memory]] Next Note:
 # Disk
 
 ## 1 Technology

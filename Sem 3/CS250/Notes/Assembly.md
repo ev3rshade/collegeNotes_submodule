@@ -2,7 +2,7 @@
 
 Status: 
 
-Tags: cs250
+Tags: [[🟡 3 Instruction Sets]] [[🟡 Compilation]]
 
 Topic: 5   3
 

@@ -2,7 +2,7 @@ Opened 01-19-2026 14:24
 
 Status:
 
-Tags: [[🟡 Assembly]]
+Tags: [[6 Full Notes/College Notes/Sem 4/CS252/Notes/Assembly]]
 
 Prev Note:  [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly) Next Note: [x86-64 Register View](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2Fx86-64%20Register%20View)
 # x86-64 Assembly Language

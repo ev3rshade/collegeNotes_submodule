@@ -1,0 +1,3 @@
+- Neural Networks Xero to Hero series (andrej Karpathy)
+- How LLMs work from zero to chatgpt
+- roadmap-how to learn AI in 2024

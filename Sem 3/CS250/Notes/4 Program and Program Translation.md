@@ -4,10 +4,6 @@ Status:
 
 Tags: [[CS250 Computer Architecture - Class Outline]]
 
-Prev Topic: [[🟡 3 Instruction Sets]] Next Topic: [[🟡 5 Program Execution]]
-
-Prev Note: Next Note: [[🟡 Compilation]]
-
 
 # Program
 > a set of instructions for a computer to perform a specific task

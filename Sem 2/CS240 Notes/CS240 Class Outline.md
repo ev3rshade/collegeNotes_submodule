@@ -2,7 +2,7 @@
 
 Status:
 
-Tags: [[C]]
+Tags: [[+ C]]
 
 # CS 240
 Content:

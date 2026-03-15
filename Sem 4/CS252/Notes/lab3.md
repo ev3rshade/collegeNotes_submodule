@@ -1,0 +1,90 @@
+Opened 03-08-2026 13:30
+
+Status:
+
+Tags:
+
+prev: next:
+# lab3
+
+## tips
+use c++ features --> eases memory management difficulty
+
+part 1A
+- implement the code labeled in `command.cc` to execute commands using syscalls
+part 1B
+- step 1 add more tokens to `shell.l`
+	- ">>", "|", "&"
+	- step 2 add the token names to `shell.y`
+- step 3 add more rules to `shell.y`
+# errors
+part 1A
+`execvp()` requires `char *` types
+-- solution: const_cast
+arguments not being executed
+-- solution: NULL terminate argv
+`waitpid()` placement
+--solution: only wait in parent process
+arguments not being read
+--solution: pass ALL arguments including command to `execvp()`
+
+part 1B
+`$2` is not being read correctly --> improper definition of grammar parsing
+--solution: use correct syntax
+lex unrecognized rule
+--solution: surround tokens in quotes for literal matching and remove comments in the rule def section
+==spaces needed between io modifiers==
+`perror()` prints status code
+--solution: use `printf()`
+memory management issues when outfile == errfile
+--solution: check if they are the same in Command::clear();
+==redirection ambiguity check stack overflow post==
+
+==ask ta's about which to close before executing and stuff==
+
+part 2
+
+`exit()` causing syntax error in parsing
+--solution: remove exit token from `shell.l` and compare directly as a word in `shell.y`
+yacc grammar causing programs to not parse at all
+--solution: rearrange rules to correct precedence
+ctrl + c not printing prompt
+--solution:
+pipes also printing exit bc of SIGCHLD
+--solution: use a static unordered set to keep track of background procs ==concurrency issues? ASK TAs==
+yacc issues with 
+```
+shell.y: warning: 7 shift/reduce conflicts [-Wconflicts-sr]
+shell.y: warning: 1 reduce/reduce conflict [-Wconflicts-rr]
+shell.y: note: rerun with option '-Wcounterexamples' to generate conflict counterexamples
+```
+--solution: get rid of empty option io_modifier (summarize net link)
+QUOTEWORD token reading previous token
+--solution: needed to set the yytext to be a cpp string 
+sefaulting on new word rule:
+--solution: forgot to define \_currentcommand
+const unordered_map uses .at() instead of \[  ] to access
+builtin functions that are parent only causing shell processes to never exit
+--solution: don't fork for these
+source recursing infinitely
+--solution: update handle_file to not use the name yyin
+--solution: clear \_current_command before parsing
+syntax error when passing a WORD
+--solution: don't pass c_str() to string initialization in `shell.l`
+## TODO
+- fix background proc logic
+- separate out command.cc
+- https://edstem.org/us/courses/92707/discussion/7770321
+
+# References
+https://stackoverflow.com/questions/578719/yacc-only-applying-rule-once
+
+https://stackoverflow.com/questions/10080828/adding-arguments-to-a-vector-yacc-bison
+
+https://stackoverflow.com/questions/21555990/previous-token-on-yacc-lex
+
+https://stackoverflow.com/questions/30474041/multiple-rules-same-action-in-yacc
+
+https://stackoverflow.com/questions/9963648/type-error-for-rule-in-yacc#:~:text=last%20editor's%20name.-,Kaz,59.1k10%20114%20168
+
+https://stackoverflow.com/questions/5418181/flex-lex-encoding-strings-with-escaped-characters

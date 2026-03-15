@@ -30,6 +30,7 @@ Pointers are always 8 bytes in size
 
 ### Using pointers to optimize execution
 use pointer incrementation instead of indexing the array
+- increments by `sizeof(variable)` to jump to the next entry in the array of `variable` type in memory
 - removes need for multiplication
 - don't need to size of array
 - can define ragged arrays

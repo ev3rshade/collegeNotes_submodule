@@ -2,11 +2,10 @@ Opened 12-13-2025 22:57
 
 Status:
 
-Tags: [[CS250 Computer Architecture - Class Outline]]
+Tags: [[🟡 3 Instruction Sets]]
 
-Topic: [[🟡 3 Instruction Sets]]
+Topic 3
 
-Prev Note: [[🟡 3 Instruction Sets]]
 
 # RISC and CISC Design
 

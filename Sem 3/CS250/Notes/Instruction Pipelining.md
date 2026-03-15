@@ -2,11 +2,9 @@
 
 Status:
 
-Tags: cs250
+Tags: [[🟡 5 Program Execution]]
 
 Topic: 6
-
-Prev note: [[Clocking and Timing]]  Next note: [[Datapath]]
 # Instruction Pipelining
 > overlapping execution of multiple instructions by dividing instruction execution into stages.
 

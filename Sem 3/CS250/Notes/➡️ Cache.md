@@ -6,8 +6,6 @@ Tags: cs250
 
 Topic: [[➡️ Memory]]
 
-Prev Note:  Next note: 
-
 Chapters: 5.3, 5.4
 
 # Cache

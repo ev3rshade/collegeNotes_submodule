@@ -2,11 +2,9 @@ Opened 17:54
 
 Status: 
  
-Tags: cs250
+Tags: [[🟡➡️ 2 Digital Logic & Circuitry]]
 
 Topic: 2
-
-Prev Note: [[🟡➡️ 2 Digital Logic & Circuitry]] Next Note: [[Arithmetic Logic Unit (ALU)]]
 
 # Computer Arithmetic
 #### Binary digit representation

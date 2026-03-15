@@ -2,7 +2,7 @@
 
 Status: #teen
 
-Tags: [[Sets]] [[3 Tags/Sequences]]
+Tags: [[+ sets]] [[+ sequences]]
 
 # 2 Sets, Functions, Sequences and Sums
 

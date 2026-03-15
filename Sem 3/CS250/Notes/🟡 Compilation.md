@@ -2,11 +2,9 @@
 
 Status: 
 
-Tags: cs250
+Tags: [[4 Program and Program Translation]]
 
 Topic: 5
-
-Prev Note: [[4 Program and Program Translation]] Next Note: [[6 Full Notes/College Notes/Sem 3/CS250/Notes/Assembly]]
 
 # Compilation
 

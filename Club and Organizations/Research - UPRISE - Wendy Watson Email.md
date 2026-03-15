@@ -1,0 +1,1 @@
+to list the details again, I should include my major, what topics I am interested / my skillset, and the projects I am interested in from the

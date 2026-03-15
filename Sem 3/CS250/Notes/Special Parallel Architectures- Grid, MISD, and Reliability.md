@@ -2,11 +2,10 @@ Opened 12-13-2025 22:22
 
 Status:
 
-Tags: cs250
+Tags: [[9 Parallelism (improving computer execution)]]
 
 Topic: 9
 
-Prev Note: [[Processor Architecture]] Next Note:
 # Special Parallel Architectures
 ## Grid Computing
 > Uses idle resources of many distributed computers to solve large problems.

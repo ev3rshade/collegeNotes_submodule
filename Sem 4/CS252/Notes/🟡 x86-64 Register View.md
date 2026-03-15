@@ -73,4 +73,4 @@ The table above shows registers of different width --> use them by changing "q" 
 # References
 
 questions to TA's
-- if i am dealing with function parameters and printf and scanf calls how do i choose my registers? do i have to store the parameters in local variables?
+- if i am dealing with function parameters and printf and scanf calls how do i choose my registers? do i have to store the parameters in local variables? -- u can use the other registers unaffected by the functions or push the values in the registers to  the stack and pop them off after the operations are done

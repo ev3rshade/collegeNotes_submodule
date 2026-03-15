@@ -4,10 +4,6 @@ Status:
 
 Tags: [[CS250 Computer Architecture - Class Outline]]
 
-Prev Topic: [[CS250 Computer Architecture - Class Outline]] Next Topic: [[1 Representing Data]]
-
-Prev Note: Next Note: [[1 Representing Data]]
-
 # Von Neumann Architecture
 > a computer design where programs (instructions) and data share the same memory and bus, using a Central Processing Unit (CPU) with an Arithmetic Logic Unit (ALU) and Control Unit (CU) to fetch, decode, and execute instructions sequentially from this single memory
 ##### Diagram of Von Neumann Architecture

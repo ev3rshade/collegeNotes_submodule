@@ -82,4 +82,4 @@ https://sourceware.org/gdb/current/onlinedocs/gdb.html/Character-Sets.html#Chara
 
 # References
 [[CS252-Slides-Sprin2026.pdf]] - Slide 16
-[[Lab Zero_ Intro to GDB.pdf]]
+[[Lab Zero_sprin2026_ Intro to GDB.pdf]]
