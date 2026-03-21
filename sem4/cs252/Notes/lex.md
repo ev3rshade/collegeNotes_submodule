@@ -7,7 +7,13 @@ Tags: [[Shell Interpreter]]
 prev: next:
 # lexical analyzer generator
 
-flex
+## flex
+- uses longest match. order from longest to shortest for readability
+- if multiple match longest, then the rule that comes first is chosen
+
+use start conditions
+`%x TAG` - exclusive state
+`%s TAG` - inclusive state
 
 ## state switching
 # References

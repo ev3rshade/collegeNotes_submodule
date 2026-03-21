@@ -17,6 +17,9 @@ bison
 
 `$1, $2, $3` the right-hand-side symbols (inputs)
 
+## errors
+`syntax error` - 
+
 # References
 https://www.youtube.com/watch?v=yTXCPGAD3SQ
 https://sotoxx14.neocities.org/flex/Multiple-Input-Buffers#Multiple-Input-Buffers

@@ -7,8 +7,26 @@ Tags:
 prev: next:
 # lab3
 
+## parts
+
+system calls
+- command execution (1A)
+lex rules and yacc handling
+- basic grammar parsing (1B.1-3)
+- arg expansions --> group them into one (2.5, 2.8, 3.1)
+- special commands (2.3, 2.6)
+- special args (2.4)
+shell io
+- `isatty()` (1B.4)
+process management
+- signal handling (2.1, 2.2)
+- 
+
+
+
 ## tips
 use c++ features --> eases memory management difficulty
+custom yyerror message in shell.y for more detailed debugging info
 
 part 1A
 - implement the code labeled in `command.cc` to execute commands using syscalls
@@ -17,6 +35,13 @@ part 1B
 	- ">>", "|", "&"
 	- step 2 add the token names to `shell.y`
 - step 3 add more rules to `shell.y`
+
+
+part 2.8
+- code in shell.cc
+- REDIRECT IO
+	- look at diagram in slides, very helpful
+
 # errors
 part 1A
 `execvp()` requires `char *` types
@@ -71,10 +96,32 @@ source recursing infinitely
 --solution: clear \_current_command before parsing
 syntax error when passing a WORD
 --solution: don't pass c_str() to string initialization in `shell.l`
+i was confused on how to call the shell as parent
+--subshells are only arguments T-T
+syntax error
+--i forgot the | when parsing grammar
+subshell function hangs
+--forgot to exclude closing characters for subshell grammar
+fatal flex scanner internal error--end of buffer missed
+--newline terminate the buffer string fixed it
+issues with buffer
+--use myuputc
+syntax error when there's more than 1 specially expanded arg
+--don't push newline push space instead
+no new line at the end of file
+--solution: updating grammar rules that weren't consistent and didn't cover behavior like ignoring spaces and stuff
+
 ## TODO
-- fix background proc logic
+- [ ] fix background proc logic
 - separate out command.cc
 - https://edstem.org/us/courses/92707/discussion/7770321
+- [ ] fix ctrl + c behavior
+- multiple prompts being printed sometimes T-T
+- [x] handle getenv when enviro doesn't exist
+- [ ] myunputc needs a special character to breakup argument scanning
+
+Questions
+- 3.1 what if there is no last executed command or last process run in the background
 
 # References
 https://stackoverflow.com/questions/578719/yacc-only-applying-rule-once

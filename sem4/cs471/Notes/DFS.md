@@ -1,10 +1,10 @@
-Opened 03-14-2026 11:55
+Opened 03-15-2026 15:00
 
 Status:
 
 Tags: [[+ graph search]] [[+ tree search]]
 
-# BFS
+# DFS
 
 
 
