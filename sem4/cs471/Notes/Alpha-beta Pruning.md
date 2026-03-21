@@ -2,7 +2,7 @@ Opened 03-14-2026 12:03
 
 Status:
 
-Tags: [[Minimax]]
+Tags: [[Minimax]] [[Expectimax]]
 
 # Alpha-beta Pruning
 

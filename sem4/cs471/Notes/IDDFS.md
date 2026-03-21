@@ -2,7 +2,7 @@ Opened 03-15-2026 15:01
 
 Status:
 
-Tags: [[DFS]]
+Tags: [[+ searching algorithms]][[DFS]]
 
 # Iterative Deepening DFS
 

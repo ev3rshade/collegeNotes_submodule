@@ -6,6 +6,7 @@ Tags:
 
 # + searching algorithms
 
+---
 ## Characteristics
 
 **Completeness**
@@ -14,17 +15,18 @@ Tags:
 **Optimality**
 --the algorithm is guaranteed to find the lowest cost solution
 
+---
 ## Types of search
 
 **Tree search**
 - better for acyclic problems or when state space is large (revisits unlikely)
+- less memory than graph search
 
 **Graph search**
-- tracks visited nodes
+- tracks visited nodes w/ explored set
 - better for when cycles are possible
 
 key difference: tree search can revisit states, graph search cannot
-l
 # Active Recall
 
 What is the key difference between tree search and graph search? When would you prefer one over the other?

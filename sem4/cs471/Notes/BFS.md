@@ -2,7 +2,7 @@ Opened 03-14-2026 11:55
 
 Status:
 
-Tags: [[+ graph search]] [[+ tree search]]
+Tags: [[+ searching algorithms]]
 
 # BFS
 
