@@ -2,11 +2,21 @@ Opened 03-08-2026 13:30
 
 Status:
 
-Tags:
+Tags: [[+ shell]]
 
-prev: next:
 # lab3
+---
+## Layers
 
+**Lexer**
+
+**Parser**
+
+**Executor**
+
+**Built-ins**
+
+---
 ## parts
 
 system calls
