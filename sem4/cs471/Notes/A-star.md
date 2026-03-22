@@ -13,8 +13,16 @@ $$f(n) = g(n) + h(n)$$
 For tree search: the heuristic must be **admissible**
 For graph search: the heuristic must be **consistent**
 
+---
+## Execution
+1. **Frontier management**
+2. Terminates when a goal state is **expanded**
+3. Uses **explored set** to remove redundant work
+
+---
 # Active Recall
 
 Prove the optimality of the A* algorithm
 
+---
 # References
