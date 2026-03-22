@@ -10,5 +10,6 @@ Tags:
 [[+ searching algorithms]]
 [[+ games]]
 [[+ csp]]
+[[+ logic]]
 
 # References
