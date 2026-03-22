@@ -7,7 +7,8 @@ Tags:
 # Prepositional Logic
 
 
-
+## Conjunctive Normal Form
+everything is $\land$ on the outside and $\lor$ on the inside, $\neg$ on the inside too 
 
 
 # References
