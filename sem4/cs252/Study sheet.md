@@ -14,5 +14,12 @@ Bash - last revised 02/25/2026
 - new content
 
 
+---
+# Must Review
+Bash
+- `chmod` codes
+
+
+
 unread slides 100 - 245
 last slide - 269

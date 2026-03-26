@@ -2,7 +2,7 @@ Opened 02-15-2026 19:27
 
 Status:
 
-Tags: [[🔴 Memory Management]]
+Tags: [[Memory Management]]
 
 ## errors
 incorrect sizes --> caused infinite printing error

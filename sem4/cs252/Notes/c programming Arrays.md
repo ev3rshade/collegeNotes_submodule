@@ -2,7 +2,7 @@ Opened 02-25-2026 12:12
 
 Status:
 
-Tags: [[🔴 c programming]]
+Tags: [[c programming]]
 
 prev: next:
 # c programming Arrays

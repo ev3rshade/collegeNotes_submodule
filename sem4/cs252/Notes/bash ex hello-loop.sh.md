@@ -2,9 +2,9 @@ Opened 02-23-2026 08:44
 
 Status:
 
-Tags: [[🔴 bash|🔴 bash]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|🔴 bash]]
 
-prev:  [[🔴 bash|🔴 bash]]
+prev:  [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|🔴 bash]]
 # bash ex hello.sh
 ```
 #!/bin/bash

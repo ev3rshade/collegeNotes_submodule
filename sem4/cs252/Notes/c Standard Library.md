@@ -2,7 +2,7 @@ Opened 02-06-2026 10:05
 
 Status:
 
-Tags: [[🔴 c programming]]
+Tags: [[c programming]]
 
 # c Standard Library
 (libc)

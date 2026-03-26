@@ -9,12 +9,23 @@ Tags: [[+ shell]]
 ## Layers
 
 **Lexer**
+`shell.l`
+
+**Argument Expansion**
+`expansion.cc`
 
 **Parser**
+`shell.y`
 
 **Executor**
+`command.cc`
 
 **Built-ins**
+`builtin.cc`
+
+**Raw mode**
+`read-line.cc`
+`tty-raw-mode.c`
 
 ---
 ## parts
@@ -121,14 +132,18 @@ syntax error when there's more than 1 specially expanded arg
 no new line at the end of file
 --solution: updating grammar rules that weren't consistent and didn't cover behavior like ignoring spaces and stuff
 
+reorganization
+bug with printenv failing
+--solution: exit child after executing printenv
+
 ## TODO
-- [ ] fix background proc logic
-- separate out command.cc
-- https://edstem.org/us/courses/92707/discussion/7770321
+- [x] fix background proc logic
+- [ ]  separate out command.cc
 - [ ] fix ctrl + c behavior
 - multiple prompts being printed sometimes T-T
+- need to kill child process when signal is received
 - [x] handle getenv when enviro doesn't exist
-- [ ] myunputc needs a special character to breakup argument scanning
+- [x] myunputc needs a special character to breakup argument scanning --> this is lowk ok
 
 Questions
 - 3.1 what if there is no last executed command or last process run in the background

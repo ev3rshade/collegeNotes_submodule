@@ -2,7 +2,7 @@ Opened 02-20-2026 11:01
 
 Status:
 
-Tags: [[🔴 Shell Scripts]]
+Tags: [[Shell Scripts]]
 
 # bash
 a shell scripting language

@@ -2,7 +2,7 @@ Opened 02-23-2026 09:55
 
 Status:
 
-Tags: [[🔴 bash]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash]]
 
 prev: next:
 # lab2

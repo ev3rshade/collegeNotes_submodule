@@ -2,7 +2,7 @@ Opened 02-06-2026 10:27
 
 Status:
 
-Tags: [[🔴 x86-64 Assembly Language]]
+Tags: [[x86-64 Assembly Language]]
 
 # x86-64 Adding Two Numbers
 ```

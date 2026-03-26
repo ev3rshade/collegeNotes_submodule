@@ -5,7 +5,7 @@ Status:
 Tags: [[c programming Arrays]]
 
 prev: next:
-# 🔴 c ex Array Mapper
+# c ex Array Mapper
 
 
 

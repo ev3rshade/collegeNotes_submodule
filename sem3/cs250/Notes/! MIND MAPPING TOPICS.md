@@ -26,7 +26,7 @@ instruction pipelines and stalls; 🟢
 data pipelining; 🟡
 
 ## 5 Memory Systems
-registers and register banks; [[Registers]]
+registers and register banks; [[6 Full Notes/College Notes/sem3/cs250/Notes/Registers]]
 [[➡️ Memory]] and [[🟡 Address Spaces]]; 
 memory [[➡️ Cache]]; 
 physical and virtual memory (see [[🟡 Main memory]]); 🟡

@@ -44,7 +44,7 @@ Memory is either read/write/execute (chmod)
 **Data** - initialized global variables
 **Text** - instructions that the program runs
 
-[[🔴 Libraries]] - Static, Dynamic
+[[Libraries]] - Static, Dynamic
 
 **Memory Gaps**
 > gaps between each memory section without memory mappings

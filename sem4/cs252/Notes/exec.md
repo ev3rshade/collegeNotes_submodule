@@ -2,7 +2,7 @@ Opened 03-08-2026 13:34
 
 Status:
 
-Tags: [[🔴 System Calls]]
+Tags: [[System Calls]]
 
 prev: next:
 # exec
