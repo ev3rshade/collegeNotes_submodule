@@ -85,7 +85,13 @@ int main() { // Stored in text 
 }
 ```
 
+---
+# Active Recall
 
+1 enumerate and describe the memory sections of a program
+||see above||
+
+---
 # References
 [[CS252-Slides-Sprin2026.pdf]] - Slides 9-16
 [[Chapter1-ProgramStructure.pdf]]
