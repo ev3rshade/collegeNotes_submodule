@@ -1,17 +1,13 @@
-Opened 03-27-2026 09:58
+Opened 03-27-2026 13:55
 
 Status:
 
 Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|bash]]
 
-# bash Cheatsheet
+# wc
 
-parsing strings
-`wc`
 
-`ln`
-`strace`
-`ulimit`
+
 
 ---
 # References
