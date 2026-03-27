@@ -77,11 +77,6 @@ $ needed to access variable values in bash
 
 \[\[   ]] vs \[   ]
 
-==ask TAs==
-- preservation of metadata
-- crontab
-- is cpu time just utime + stime
-- round up or down KB --> MB
-- if doesn't exist, ignore?
+---
 # References
 https://www.baeldung.com/linux/total-process-cpu-usage

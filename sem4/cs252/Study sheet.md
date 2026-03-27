@@ -13,11 +13,13 @@ Memory and Pointers - last revised 02/25/2026
 Bash - last revised 02/25/2026
 - new content
 
-
 ---
 # Must Review
 Bash
 - `chmod` codes
+- `ln`
+
+hard links
 
 
 

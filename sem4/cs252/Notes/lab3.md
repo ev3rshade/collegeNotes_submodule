@@ -132,6 +132,14 @@ syntax error when there's more than 1 specially expanded arg
 no new line at the end of file
 --solution: updating grammar rules that weren't consistent and didn't cover behavior like ignoring spaces and stuff
 
+part 3
+expand wildcard failing
+--solution: look at slides and use the implementation there
+raw tty wouldn't turn off
+--solution: turn it off with exit
+raw mode wouldn't edit the string
+--solution: reprint the whole line
+
 reorganization
 bug with printenv failing
 --solution: exit child after executing printenv
@@ -145,8 +153,6 @@ bug with printenv failing
 - [x] handle getenv when enviro doesn't exist
 - [x] myunputc needs a special character to breakup argument scanning --> this is lowk ok
 
-Questions
-- 3.1 what if there is no last executed command or last process run in the background
 
 # References
 https://stackoverflow.com/questions/578719/yacc-only-applying-rule-once

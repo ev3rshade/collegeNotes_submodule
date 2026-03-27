@@ -18,6 +18,6 @@ Tags: [gdb](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20No
 
 
 
-
+---
 # References
 [[Lab Zero_sprin2026_ Intro to GDB.pdf]]
