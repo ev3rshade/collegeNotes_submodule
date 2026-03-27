@@ -1,14 +1,13 @@
-Opened 03-08-2026 14:18
+Opened 03-27-2026 13:34
 
 Status:
 
 Tags: [[System Calls]]
 
-prev: next:
-# dup()
+# unistd.h
 
 
 
 
-
+---
 # References

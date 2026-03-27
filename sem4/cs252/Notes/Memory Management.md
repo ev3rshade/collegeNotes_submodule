@@ -6,20 +6,16 @@ Tags: [[+ memory]]
 
 # Memory Management
 
-### Explicit Memory Management
+## Explicit Memory Management
 malloc library
 `malloc()` and `free()`
 
-#### main components
+[[Memory Allocation (heap)]]
+[[Memory Deallocation (heap)]]
+[[Memory Allocation Errors]]
+
+## Main Components
 "freelists"
-
-
-#### allocation
-
-#### deallocation
-
-#### Interaction with OS
-- memory is requested in big chunks
 
 
 # References

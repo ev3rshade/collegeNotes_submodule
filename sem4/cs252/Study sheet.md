@@ -22,6 +22,10 @@ Bash
 hard links
 
 
+---
+Notes organization
+- each lab should be a bigger node
+- each topic should also be like a bigger node but tree struct??
 
 unread slides 100 - 245
 last slide - 269

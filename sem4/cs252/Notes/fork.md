@@ -2,10 +2,10 @@ Opened 03-08-2026 13:32
 
 Status:
 
-Tags: [[System Calls]]
+Tags: [[unistd.h]]
 
 prev: next:
-# fork()
+# fork
 
 
 

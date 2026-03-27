@@ -6,6 +6,8 @@ Tags:
 
 # I-node
 
+## Characteristics
+
 **1 Flag/Mode**
 read, write, execute. (owner, group, all) RWX RWX RWX
 
