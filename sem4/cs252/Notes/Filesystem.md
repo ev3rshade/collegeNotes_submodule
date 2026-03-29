@@ -2,7 +2,7 @@ Opened 03-27-2026 12:40
 
 Status:
 
-Tags: [[+ operating system]]
+Tags: [[+ operating system]] [[+ memory]]
 
 # File
 

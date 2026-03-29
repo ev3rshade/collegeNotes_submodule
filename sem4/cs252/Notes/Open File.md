@@ -15,6 +15,7 @@ list of all files that are opened in the [[Process]] table
 each open file descriptor entry contains a pointer to an open file object
 
 **File descriptor (fd)** - an index into the table
+- starting number of file descriptors for any program is 3. stdin = 0     stdout = 1    stderr = 2
 - Max num of file descriptors per process is 1024 by default but can be changed with ulimit
 
 ---

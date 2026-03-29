@@ -6,8 +6,10 @@ Tags:
 
 # dup2
 
+`int dup2(int oldfd, int newfd)`
+allocates a new file descriptor that refers to the same open file description as the descriptor *oldfd*
 
-
+example usage: redirecting standard output to a different file descriptor
 
 ---
 # References
