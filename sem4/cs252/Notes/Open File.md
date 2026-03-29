@@ -66,7 +66,7 @@ system calls
 
 1 T/F both open file table and open file objects are stored in the kernel
 ||True||
-2 what value do syscalls like write/read use to refer to open files?
+2 what value do syscalls like write/read use as reference to open files?
 ||File descriptors||
 3 list and explain the attributes of an open file object
 ||see above||
