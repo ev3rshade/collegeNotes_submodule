@@ -11,12 +11,16 @@ standard is file ends in `.sh`
 - if not, OS checks for `#!interpreter-program` and if it is there, runs the interpreter program
 - must have execute perms to be able to run
 
-#### common shell programs
+scripts should have the executable bit set to be able to execute
+e.g. `chmod +x myscript.sh` in bash
+
+---
+## common shell programs
+
 /bin/sh - standard UNIX shell
 /bin/ksh - Korn shell (more powerful)
 /bin/bash - GNU shell (standard linux shell)
 /bin/tcsh
 
-
-
+---
 # References
