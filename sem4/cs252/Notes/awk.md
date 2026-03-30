@@ -2,7 +2,7 @@ Opened 03-27-2026 14:06
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|bash]] [[6 Full Notes/College Notes/sem4/cs252/Notes/Regex|Regex]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|bash]] [[Pattern Matching]]
 
 # awk
 pattern scanning an processing language

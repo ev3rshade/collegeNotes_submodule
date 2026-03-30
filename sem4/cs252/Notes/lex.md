@@ -2,7 +2,7 @@ Opened 03-08-2026 13:02
 
 Status:
 
-Tags: [[Shell Interpreter]]
+Tags: [[Shell Interpreter]] [[Pattern Matching]]
 
 prev: next:
 # lexical analyzer generator

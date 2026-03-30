@@ -2,7 +2,7 @@ Opened 03-02-2026 08:59
 
 Status:
 
-Tags: [[+ program (software)]]
+Tags: [[+ program (software)]] [[c programming]]
 
 prev: next:
 # C++

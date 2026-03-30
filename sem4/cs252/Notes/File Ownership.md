@@ -2,7 +2,7 @@ Opened 03-30-2026 14:26
 
 Status:
 
-Tags:
+Tags: [[I-node]]
 
 # File Ownership
 which users and groups have access to a file
