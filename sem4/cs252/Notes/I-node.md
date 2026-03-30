@@ -49,3 +49,5 @@ How do I-Nodes save space with block indices?
 
 ---
 # References
+
+1 [linux man page](https://man7.org/linux/man-pages/man7/inode.7.html)
