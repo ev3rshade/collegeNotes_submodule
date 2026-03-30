@@ -2,7 +2,7 @@ Opened 02-23-2026 08:35
 
 Status:
 
-Tags: [[+ shell]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ shell]]
 
 # Shell Scripts
 

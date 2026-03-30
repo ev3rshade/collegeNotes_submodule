@@ -2,7 +2,7 @@ Opened 03-08-2026 13:30
 
 Status:
 
-Tags: [[+ shell]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ shell]]
 
 # lab3
 ---

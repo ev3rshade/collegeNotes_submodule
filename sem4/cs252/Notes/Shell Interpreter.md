@@ -2,7 +2,7 @@ Opened 03-02-2026 09:51
 
 Status:
 
-Tags: [[+ shell]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ shell]]
 
 prev: next:
 # Shell Interpreter

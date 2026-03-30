@@ -2,7 +2,7 @@ Opened 03-27-2026 10:32
 
 Status:
 
-Tags: [[+ shell]] [[+ operating system]]
+Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ shell]] [[+ operating system]]
 
 # Process
 
