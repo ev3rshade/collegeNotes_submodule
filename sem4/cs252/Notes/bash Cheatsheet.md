@@ -31,6 +31,14 @@ Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|bash]]
 `while`/`for` loops `shift` `getopts`
 `[[ ]]` `[ ]` `$(( ))` `$()` `${#var}` `expr`
 
+## User Management
+`adduser`
+`passwd`
+`su`
+
+## Disks
+`lsblk`
+
 ## Version Control
 `git`
  

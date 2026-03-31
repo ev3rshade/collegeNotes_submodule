@@ -2,7 +2,7 @@ Opened 03-27-2026 10:03
 
 Status:
 
-Tags: [[Filesystem]]
+Tags: [[UNIX Filesystem]]
 
 # I-node (file)
 
