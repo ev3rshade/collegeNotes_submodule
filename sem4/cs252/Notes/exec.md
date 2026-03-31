@@ -7,6 +7,8 @@ Tags: [[System Calls]]
 prev: next:
 # exec
 
+`execlp()`
+
 `execvp()`
 both arguments must be c style char arrays
 - cmd - must be constant

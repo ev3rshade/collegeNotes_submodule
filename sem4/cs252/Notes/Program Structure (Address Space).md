@@ -106,6 +106,16 @@ int main() { // Stored in [c]
 ```
 ||a = data, b = bss, c = text, d = stack, e = heap||
 
+3 In the following code, the address printed by `printf` belongs to which section?
+```
+main() {
+	int * p;
+	p = malloc(sizeof(int));
+	printf("&p\n", &p);
+}
+```
+||stack||
+
 ---
 # References
 [[CS252-Slides-Sprin2026.pdf]] - Slides 9-16
