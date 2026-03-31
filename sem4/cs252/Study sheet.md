@@ -1,3 +1,5 @@
+[[cs252]]
+
 Program structure - last revised 03/06/2026
 - address space still confusing
 

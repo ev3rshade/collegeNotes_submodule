@@ -2,7 +2,7 @@ Opened 03-28-2026 14:59
 
 Status:
 
-Tags:
+Tags: [[cs252]]
 
 **Exam Technicalities** 
 

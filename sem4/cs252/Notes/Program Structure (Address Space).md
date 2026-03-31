@@ -91,6 +91,21 @@ int main() { // Stored in text 
 1 enumerate and describe the memory sections of a program
 ||see above||
 
+2 what is a - e
+```
+Program hello.c
+int a = 5; // Stored in [a]
+section
+int b[20]; // Stored in [b]
+
+int main() { // Stored in [c]
+	int x; // Stored in [d]
+	int *p =(int*)
+	malloc(sizeof(int)); // Stored in [e]
+}
+```
+||a = data, b = bss, c = text, d = stack, e = heap||
+
 ---
 # References
 [[CS252-Slides-Sprin2026.pdf]] - Slides 9-16

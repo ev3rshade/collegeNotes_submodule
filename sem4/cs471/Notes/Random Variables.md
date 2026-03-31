@@ -2,11 +2,11 @@ Opened 03-31-2026 13:50
 
 Status:
 
-Tags:
+Tags: [[+ probability]]
 
 # Random Variables
-A function that maps from $\Omega$ to some range
+a function that maps from $\Omega$ to some range
 
 
 ---
-# References
+# Referencesl
