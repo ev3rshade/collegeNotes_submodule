@@ -2,7 +2,7 @@ Opened 01-12-2026 07:17
 
 Status:
 
-Tags: cs252 [[! Systems Programming]]
+Tags: cs252 [[! cs252 Systems Programming]]
 
 # + program (software)
 

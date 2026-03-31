@@ -2,7 +2,7 @@ Opened 03-14-2026 11:55
 
 Status:
 
-Tags: [[! Intro to Machine Learning]]
+Tags: [[! cs471 Intro to Machine Learning]]
 
 # Heuristic
 problem specific hint that estimates the coast of the cheapest path from a node $n$ to a goal state.

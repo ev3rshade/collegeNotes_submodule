@@ -2,7 +2,7 @@ Opened 01-12-2026 04:50
 
 Status: #adult
 
-Tags: [[! Systems Programming]]
+Tags: [[! cs252 Systems Programming]]
 
 # 1 Course Intro
 

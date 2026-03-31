@@ -201,7 +201,7 @@ The memory hierarchy is built with these two principles in mind.
 
 
 ---
-## 4 [[➡️ Cache]] and [[🟡 Main memory]] and [[6 Full Notes/Disks]]
+## 4 [[➡️ Cache]] and [[🟡 Main memory]] and [[6 Full Notes/College Notes/sem3/cs250/Notes/Disk|Disk]]
 
 ---
 

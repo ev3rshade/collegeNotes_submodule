@@ -2,7 +2,7 @@ Opened 03-25-2026 08:37
 
 Status:
 
-Tags: [[! Systems Programming]]
+Tags: [[! cs252 Systems Programming]]
 
 # + computer architecture
 
