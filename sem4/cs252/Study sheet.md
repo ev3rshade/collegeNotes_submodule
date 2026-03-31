@@ -15,13 +15,9 @@ Bash - last revised 02/25/2026
 
 ---
 # Must Review
-Bash --> make a cheatsheet and review syntax and common commands on the slides
-- `chmod` codes
-- `ln`
-- `grep`
-
-hard links
-I-nodes
+bash --> the last problem on the hw
+shell --> subshells
+assembly
 
 
 ---

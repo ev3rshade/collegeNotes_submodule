@@ -31,4 +31,12 @@ Tags:
 - If you need more paper, ask a TA #973
 
 ---
+## Written questions breakdown
+
+**malloc**
+- implement headers that DON'T EXIST
+
+**shell**
+- print errors
+
 # References

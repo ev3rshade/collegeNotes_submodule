@@ -21,9 +21,14 @@ bison
 `syntax error` - 
 
 ---
+# Pictures
+![[Screenshot 2026-03-31 125117.png]]
+
+---
 # Active Recall
 
-1 D
+1 Draw the Parse Tree for `ls a b" | sort > out`
+||see above||
 
 ---
 # References
