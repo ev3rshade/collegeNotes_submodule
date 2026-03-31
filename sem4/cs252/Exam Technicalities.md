@@ -2,12 +2,12 @@ Opened 03-28-2026 14:59
 
 Status:
 
-Tags: [[cs252]]
+Tags: [[cs252 Exam]]
 
 **Exam Technicalities** 
 
 **Format:** 20 MCQ + 4 FRQ
-
+n
 **Coding by Hand**
 
 - Either C or C++ is acceptable #927

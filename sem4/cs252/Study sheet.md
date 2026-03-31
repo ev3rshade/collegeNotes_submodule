@@ -1,4 +1,4 @@
-[[cs252]]
+[[cs252 Exam]]
 
 Program structure - last revised 03/06/2026
 - address space still confusing

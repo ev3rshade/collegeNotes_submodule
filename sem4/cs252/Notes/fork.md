@@ -7,6 +7,9 @@ Tags: [[unistd.h]]
 prev: next:
 # fork
 
+use pipe to communicate between processes
+
+copies every file descriptor
 
 
 ---
