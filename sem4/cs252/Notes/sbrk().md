@@ -6,7 +6,8 @@ Tags: [[System Calls]]
 
 prev: next:
 # sbrk()
-
+`sbrk(s)`
+increases the size of the heap by s
 
 
 

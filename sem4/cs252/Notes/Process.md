@@ -5,7 +5,9 @@ Status:
 Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ shell]] [[+ operating system]]
 
 # Process
+a program in execution
 
+a program may have multiple processes running the same program --> each process is a diff instance of same program
 ---
 ## Terminology
 
@@ -90,5 +92,8 @@ main()
 
 ```
 ||It prints "Hello World" and the parent hangs, bc the parent never closes its write end fdpipe[1] waiting for data taht will never come. the fix is closing fdpipe[1] after the if statement, and closing fdpipe[0] after the while loop as the child only writes. then, read will get EOF and the loop will exit.||
+
+what is an example of a program running multiple processes running the same program?
+||bash running for multiple users or multiple times for the same user||
 
 # References

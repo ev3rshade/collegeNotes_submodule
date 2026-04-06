@@ -7,15 +7,13 @@ Tags: [[+ memory]]
 # Memory Management
 
 ## Explicit Memory Management
-malloc library
+malloc library --> interface between the os and programs
 `malloc()` and `free()`
 
 [[Memory Allocation (heap)]]
 [[Memory Deallocation (heap)]]
 [[Memory Allocation Errors]]
 
-## Main Components
-"freelists"
 
 
 # References
