@@ -8,6 +8,11 @@ Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ shell]] [[+ operating syst
 a program in execution
 
 a program may have multiple processes running the same program --> each process is a diff instance of same program
+
+---
+## Commands
+[[ps]]
+
 ---
 ## Terminology
 
@@ -58,6 +63,12 @@ user id
 **6 Stdin/Stdout/Stderr**
 inherited from parent
 usually keyboard and the terminal, but can be redirected
+
+
+
+
+
+
 
 ---
 # Active Recall
