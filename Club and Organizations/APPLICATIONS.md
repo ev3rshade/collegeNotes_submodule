@@ -1,4 +1,0 @@
-- [ ] SURF
-	- [ ] https://engineering.purdue.edu/Engr/Research/EURO/SURF/
-	- [ ] Year-Application#: 2025-**00090**
-	- [ ] Password: **P@-@-Du-u-Un!**
