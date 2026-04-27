@@ -2,11 +2,11 @@ Opened 21:06
 
 Status: 
 
-Tags: [[4 Program and Program Translation]]
+Tags: [[+ program translation]]
 
 Topic: 3
 
-Prev Note: [[Linker]] Next Note: [[🟡 Address Spaces]]
+Prev Note: [[Linker]] Next Note: [[Address Spaces]]
 
 # Loader
 > a systems program (part of the OS) that places an object program in main memory so that it is ready to execute

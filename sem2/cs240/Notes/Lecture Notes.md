@@ -1,3 +1,11 @@
+Opened 04-22-2026 20:49
+
+Status:
+
+Tags:
+
+# Lecture Notes
+
 # C as a programming Language
 >function oriented  |  recompilation
 
@@ -31,9 +39,12 @@ why object files? - incremental compilation for larger applications to reduce co
 ###### Example 1 - compiling and linking programs to make an executable
 - ``gcc -Wall -Werror -std=c17 -o hello.c hello_main.c
 
-- ```gcc -Wall -Werror -g -c file1.c 
-  gcc -Wall -Werror -g -c file2.c 
-  gcc -o my_progr file1.o file2.o```
+```
+gcc -Wall -Werror -g -c file1.c 
+gcc -Wall -Werror -g -c file2.c 
+gcc -o my_progr file1.o file2.o
+```
+
 
 ### C standards
 - ANSI C or ISO C  (C89 or C90)
@@ -92,31 +103,39 @@ files are referred to by file pointers
 ## Lecture 5  01/29
 ## Lecture 6  02/03
 - ### struct
-	- ```struct my_struct {
-			 int x
-			 float y
-			};```
+```
+struct my_struct {
+	int x
+	float y
+};
+```
+
+- struct
 	- can make an array of structs
 - ### typedef
 		- Declaration vs definition
 			- declaration - creating a struct
-			 ```
 		 example 
-			typedef struct my_struct {
-			 int x
-			 float y
-			};
-			```
-``
+		 
+```
+typedef struct my_struct {
+	int x
+	float y
+};
+```
+			
+- typedef
 		- definition - creating a typedef
-		
-		example
-			new_struct_type var = { 1, 3.2};
-			and
-			typedef struct my_struct {
-				int x
-				float y
-			} new_struct_type;
+		- example
+```
+new_struct_type var = { 1, 3.2};
+
+typedef struct my_struct {
+	int x
+	float y
+} new_struct_type;
+```
+
 - ### Union
 	- Variables that are stored in overlapping places in memory
 	- Different from structs because all variables are overlapping
@@ -193,3 +212,7 @@ The C Programming Language (2nd ed); Kernighan and Ritchie; Prentice Hall, March
 https://docs.google.com/document/d/1W-fuNQcxoBp9BdlWG_r7xXubd0koZkwTpQ1tKPmKG6k/edit?tab=t.0
 Beej’s Guide to C Programming; Brian “Beej” Hall; 2007
 https://beej.us/guide/bgc/
+
+
+---
+# References

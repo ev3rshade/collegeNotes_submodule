@@ -2,7 +2,7 @@ Opened 22:47
 
 Status:
 
-Tags: [[6 Memory + Address Spaces]]
+Tags: [[+ memory system]]
 
 Topic: 6
 

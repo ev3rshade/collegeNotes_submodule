@@ -2,7 +2,7 @@
 
 Status:
 
-Tags: [[🟡 5 Program Execution]]
+Tags: [[+ instruction execution]]
 
 Topic: 6
 # Instruction Pipelining
@@ -86,7 +86,6 @@ Forwarding scenarios
 - **Branch Prediction Buffer (Branch History Table)**:
     - Indexed by lower bits of branch instruction address
     - Stores recent taken/not-taken outcomes
-- States ![[6 Full Notes/College Notes/sem3/cs250/attachments/Screenshot 2025-12-10 014144.png]]
 
 ###### Higher branch prediction models
 **Branch Target Buffer (BTB)**

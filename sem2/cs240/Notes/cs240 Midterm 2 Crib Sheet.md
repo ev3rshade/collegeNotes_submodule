@@ -1,4 +1,4 @@
-[[cs240 Class Outline]]
+[[! cs240]]
 # gdb
 -g with gcc to add debugging information
 - ### Flags

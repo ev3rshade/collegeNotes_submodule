@@ -2,31 +2,51 @@ Opened 23:12
 
 Status:
 
-Tags: [[cs250 Computer Architecture - Class Outline]]
+Tags: [[+ cpu architecture]]
 
 # Von Neumann Architecture
-> a computer design where programs (instructions) and data share the same memory and bus, using a Central Processing Unit (CPU) with an Arithmetic Logic Unit (ALU) and Control Unit (CU) to fetch, decode, and execute instructions sequentially from this single memory
-##### Diagram of Von Neumann Architecture
+> A computer design where both programs and data share the same memory, accessed via a common bus by a CPU containing an ALU and Control Unit.
+
 ![[Screenshot 2025-12-11 231207.png]]
-Arrows indicate information flow
 
-Both programs and data can be stored in the same memory
+---
 
-## 0 Stored-Program Concept
-> Both instructions and data reside in the same memory, allowing programs to be easily changed.
+## Components
 
-## 1 Input / Output
-> Places where the machine can receive signals from an outside source
-> Places where the machine can send signals to an outside source
+**CPU** — executes instructions; contains the [[Arithmetic Logic Unit (ALU)]] and [[Control Unit]]
+**Memory** — stores both instructions and data; see [[Memory]]
+**I/O** — input: receives signals from outside; output: sends signals to outside
+**Datapath** — the bus connections that move data between components; see [[Datapath]]
 
-## 2 [[➡️ Memory]]
-> Storage, a place to represent values that you would like to represent in the device
-## 3 [[🔴 8 Control and Task Management]]
+---
 
-## 4  [[Datapath]]
-(the arrows)
+## Stored-Program Concept
+> Both instructions and data reside in the same memory, allowing programs to be easily modified and treated as data.
 
+This is what makes general-purpose computers possible — the same hardware runs any program.
+
+---
+
+## Von Neumann Bottleneck
+> Instructions and data share one memory bus, so only one can be transferred at a time, limiting throughput.
+
+Modern CPUs mitigate this with separate L1 instruction and data caches (Harvard-style cache) while keeping unified main memory semantics.
+
+---
+
+# Active Recall
+
+1. What is the Von Neumann bottleneck?
+||Instructions and data share the same memory bus, so the CPU must take turns fetching instructions and accessing data — limiting throughput.||
+
+2. What four main components does Von Neumann architecture define?
+||CPU (ALU + Control Unit), Memory, I/O, and the connecting bus/datapath.||
+
+---
 
 # References
-## Lectures
-[[CS250 LEC Why Computer Architecture - GB Adams.pdf]]
+[[Stored Program Concept]]
+[[Datapath]]
+[[Control Unit]]
+[[Arithmetic Logic Unit (ALU)]]
+[[Memory]]

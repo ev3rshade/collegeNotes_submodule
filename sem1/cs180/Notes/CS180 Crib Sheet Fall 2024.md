@@ -1,3 +1,11 @@
+Opened 04-22-2026 20:43
+
+Status:
+
+Tags: [[! cs180]]
+
+# CS180 Crib Sheet Fall 2024
+
 > Resources used to put this together
 - The CS 180 slides (Dunsmore - Purdue cs professor)
 - CS 180 past exams
@@ -289,3 +297,7 @@ methods
 	- watch out for capitalization
 		- CLASS NAMES ARE ALWAYS CAPITALIZED (especially Object!!!)
 		- Camel case for variables and method signatures, all caps for final variables
+
+
+---
+# References

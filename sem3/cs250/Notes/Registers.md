@@ -2,7 +2,7 @@ Opened 15:34
 
 Status:
 
-Tags: [[➡️ Memory]] [[4 Program and Program Translation]]
+Tags: [[+ cpu architecture]] [[+ memory system]]
 
 Topic: 4
 
@@ -28,7 +28,6 @@ Destination register
 > register that receives results of an instruction
 
 ### Register Purpose in Programs
-[[4 Program and Program Translation]]
 
 | Registers | Name                | Used For                  | Preserved |
 | --------- | ------------------- | ------------------------- | --------- |

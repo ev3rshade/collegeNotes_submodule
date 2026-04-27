@@ -1,3 +1,11 @@
+Opened 04-22-2026 20:43
+
+Status:
+
+Tags: [[! cs180]]
+
+# CS180 Final Exam Cram
+
 Which of the following statement(s) is/are incorrect? 
 I. PrintWriter will always overwrite the contents of the file. 
 II. BufferedReader can be used to write across a network stream 
@@ -80,3 +88,8 @@ makeMatrix(int[] arr1, int[] arr2)
 
 **How many base cases does a well-defined recursive function have?**
 At least 1
+
+
+
+---
+# References

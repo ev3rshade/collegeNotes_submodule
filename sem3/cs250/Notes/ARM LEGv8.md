@@ -2,12 +2,12 @@
 
 Status: 
 
-Tags: [[6 Full Notes/College Notes/sem3/cs250/Notes/Assembly|Assembly]]
+Tags: [[+ instruction set architecture]] [[6 Full Notes/collegeNotes_submodule/sem3/cs250/Notes/Assembly|Assembly]]
 
 Topic: 5
 
 # LEGv8
-> an assembly language. a simplified subset of the [ARMv8 assembly language](https://www.google.com/search?q=ARMv8+assembly+language&rlz=1C1CHBF_enUS1120US1120&oq=is+legv8+assembly&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBCDM3ODdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&mstk=AUtExfCB6IV_hxiwdvMW7FgfFbmmxEVevUbBM3cWDZ6gc-W6kITHyky3OARkNtGsP1kDBwek-Vgi9cvwckerUrpa39AKXi4LVDVMP5PdUWF0AzIG_9EXIFmG8wCTPbWM8ArvW6cN1TP15SqkWrWcTbsxCCSlbAuSeDusIrVqk8pSgVFcyMs&csui=3&ved=2ahUKEwillLGdoJuRAxWwmokEHVZeLFEQgK4QegQIARAC) used for educational purposes
+> an assembly language. a simplified subset of the [[ARM LEGv8]]
 
 ## 1 Instruction Format
 ### Length (size)
@@ -34,7 +34,7 @@ Ex: `ADD X1, X4, X3`
 ### Memory access
 Registers
 - 32 Registers
-- X0 - X30 and XZR (XZR is an example of [[Common Case Fast]])
+- X0 - X30 and XZR (XZR is an example of Common Case Fast (see [[Great Ideas of Computer Architecture]]))
 
 Memory words
 - $2^{62}$

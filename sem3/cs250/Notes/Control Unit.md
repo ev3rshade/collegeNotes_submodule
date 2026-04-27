@@ -2,7 +2,7 @@ Opened 12-13-2025 20:32
 
 Status: 
 
-Tags: [[🔴 8 Control and Task Management]]
+Tags: [[+ cpu architecture]]
 
 Topic: 8
 

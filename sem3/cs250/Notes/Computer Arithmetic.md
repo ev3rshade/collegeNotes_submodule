@@ -1,88 +1,98 @@
 Opened 17:54
 
-Status: 
- 
-Tags: [[🟡➡️ 2 Digital Logic & Circuitry]]
+Status:
 
-Topic: 2
+Tags: [[+ data representation]]
 
 # Computer Arithmetic
-#### Binary digit representation
-1. Sign and magnitude representation
-2. Two's complement
-3. One's compelment
-4. Biased notation
-##### Overflow
-> not enough bits to represent -- set with value instead of the result instead of the result
+> Binary arithmetic operations performed by the ALU, operating on two's complement integers.
 
-#### Hexadecimal represntation
+---
 
+## Integer Representations
 
-## Storage
-### Sign Extension
-> repeatedly copying the sign to fill the rest of a register or memory location in order to place a correct representation of a number in a register
-- used so numbers are properly formatted for arithmetic instructions 
-- `LDURB` and `LDURH` used to load and sign extend the most significant bits
-- `STURB` and `STURH` preserve the byte and halfword values, simply storing the registers in memory
+| Scheme | Used For |
+|---|---|
+| Two's complement | Modern CPUs — addition works identically for positive and negative |
+| Sign-magnitude | Legacy; separate sign bit |
+| One's complement | Legacy |
+| Biased notation | IEEE 754 exponent field |
 
-## Operations
-##### Addition
-```
-carry over:    1100
-----------------------
-			   1011
-			+  0110
-			   ----
-			  10001
-```
-##### Subtraction
-```
-carry over:    0100
-----------------------
-			   1011
-			-  0110
-			   ----
-			   0101
-```
-##### Multiplication
+**Overflow** — result exceeds the representable range; hardware sets an overflow flag.
 
+---
+
+## Sign Extension
+> Replicating the sign bit to fill a wider register, preserving the numeric value.
+
+Used when loading narrow values into 64-bit registers:
+- `LDURB` / `LDURH` — load byte/halfword and sign-extend
+- `STURB` / `STURH` — store byte/halfword, preserve lower bits
+
+---
+
+## Addition
+
+Carry propagates left:
 ```
-carry over:    0100
-----------------------
-			   1011
-			x  0110
-			   ----
-			   0000
-			  1011
-			 1011
-		 +  0000
-		   --------
-		   01000010
+carry:   1100
+         1011
+       + 0110
+       ------
+        10001
 ```
+
+---
+
+## Subtraction
+
+Negate (two's complement) and add:
+```
+carry:   0100
+         1011
+       - 0110  →  + 1010
+       ------
+          0101
+```
+
+---
+
+## Multiplication
+
+Shift-and-add algorithm:
+- Check Multiplier[0]; if 1, add Multiplicand to Product
+- Shift Multiplicand left 1 bit
+- Shift Multiplier right 1 bit
+- Repeat for each bit
+
 ![[Screenshot 2025-12-09 122855.png]]
-circuit does what we did above with bit shifting. The first step checks Multiplier0 to determine whether the multiplicand is added to the Product register. The second step shifts the Multiplicand register left 1 bit. The third step shifts the Multiplier register right 1 bit.
-[[Moore's Law]]
 
-##### Division
-```
-result:        1011
-----------------------
-			   01000010
-			/  0110
-			   ----
-			    0110
-			     0000
-			      0110
-			       0110
-			   --------
-			   00000000
-```
+Result is 2n bits wide for two n-bit operands.
+
+---
+
+## Division
+
+Repeated subtraction / shift algorithm; produces quotient and remainder.
+
 ![[Screenshot 2025-12-09 124711.png]]
 
-Prediction - **predict** several quotient bits per step
+**Prediction** — modern dividers predict multiple quotient bits per step for speed.
 
-## Circuitry used
-Arithmetic Logic Unit (ALU)
-Registers
+---
+
+# Active Recall
+
+1. Why does two's complement dominate in modern hardware?
+||Addition hardware works identically for both positive and negative numbers — no special-case logic needed.||
+
+2. What is sign extension used for?
+||Loading a narrower value (byte, halfword) into a wider register while preserving its signed numeric value.||
+
+---
 
 # References
+[[Arithmetic Logic Unit (ALU)]]
+[[+ data representation]]
+## Textbook
+- Chapter 3

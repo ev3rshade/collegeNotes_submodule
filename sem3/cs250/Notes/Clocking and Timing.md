@@ -2,7 +2,7 @@
 
 Status: 
 
-Tags: [[🟡➡️ 2 Digital Logic & Circuitry]] [[🟡 5 Program Execution]]
+Tags: [[+ digital logic]] [[+ instruction execution]]
 
 
 # Clock

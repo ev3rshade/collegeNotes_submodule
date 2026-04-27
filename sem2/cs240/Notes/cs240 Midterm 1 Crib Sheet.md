@@ -1,4 +1,4 @@
-[[cs240 Class Outline]]
+[[! cs240]]
 ## Common C Libraries
 ### <stdio.h>
 	| standard input output library

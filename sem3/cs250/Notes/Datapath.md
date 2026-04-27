@@ -2,7 +2,7 @@
 
 Status: 
 
-Tags: [[Instruction Pipelining]]
+Tags: [[+ cpu architecture]]
 
 Topic: 6
 
@@ -50,9 +50,6 @@ Summary:
 - Data memory
 - Adders
 - Multiplexers
-
-a simple example
-![[6 Full Notes/College Notes/sem3/cs250/attachments/Screenshot 2025-12-09 135243.png]]
 
 
 
@@ -137,8 +134,6 @@ Common stages:
 - Control hazards
 - Structural hazards
     
-
-(See: [[Hazards, forwarding, and stalls]]) 
 
 
 

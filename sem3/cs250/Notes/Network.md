@@ -2,7 +2,7 @@ Opened 16:48
 
 Status: 
 
-Tags: cs250
+Tags: cs250 [[+ io and device management]]
 
 # Network
 > connection between computers

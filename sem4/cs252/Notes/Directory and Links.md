@@ -29,7 +29,7 @@ ref count for directories work as follows:
 - soft links can point to files in different partitions
 - a soft link does not keep a reference count to track of the target file
 - if the target file is removed, the symbolic link becomes invalid
-- [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|bash]]: `ln -s target-file name-link`
+- [[6 Full Notes/College Notes/sem4/cs252/Notes/bash]]: `ln -s target-file name-link`
 
 
 

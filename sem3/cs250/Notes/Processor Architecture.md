@@ -2,7 +2,7 @@ Opened 12-13-2025 22:13
 
 Status:
 
-Tags:  [[9 Parallelism (improving computer execution)]]
+Tags: [[+ parallelism]] [[+ cpu architecture]]
 
 Topic: 9
 

@@ -1,49 +1,35 @@
-# Computer Architecture Mind Map
+Status:
 
-## 1 Data Representation (Chapter 1 and 3)
+Tags: cs250
 
-[[1 Representing Data]]: big-endian and little-endian integers; 🟢
-signed and unsigned values; 🟢
-ones and twos complement arithmetic; 🟢
-computer arithmetic;
+# ! Computer Architecture
 
-## 2 Basic Computer Architecture (Adam's slide 2)
-Von-Neumann architecture and bottleneck;
+---
 
-## 2 Digital Logic (Chapter 1 and 7)
-[[🟡➡️ 2 Digital Logic & Circuitry]]: transistors, gates, and combinatorial circuits;
-bus architecture;
-arithmetic-logic units; 
+## Topics
 
-## 3 Programs (Instruction sets and translation) (Chapter 2)
-[[🟡 3 Instruction Sets]]; 🟡
-[[➡️ RISC and CISC Design]]s; 🟡
-assembly language; 🟡
+[[+ data representation]] — bits, binary, hex, endianness, arithmetic, floating point
 
-## 4 Program Execution
-clocks; 🟢
-instruction pipelines and stalls; 🟢
-data pipelining; 🟡
+[[+ digital logic]] — signals, gates, circuits, boolean algebra, timing, bus architecture
 
-## 5 Memory Systems
-registers and register banks; [[6 Full Notes/College Notes/sem3/cs250/Notes/Registers]]
-[[➡️ Memory]] and [[🟡 Address Spaces]]; 
-memory [[➡️ Cache]]; 
-physical and virtual memory (see [[🟡 Main memory]]); 🟡
-page tables ( see [[🟡 Main memory]]); 🟡
-DMA; 🟡
+[[+ instruction set architecture]] — ISA design, LEGv8, RISC vs CISC, assembly
 
-## 7 Processes
+[[+ program translation]] — compilation, assembly, linking, loading, procedures
 
-## 8 Control and Task Management
-polling and interrupts; 🟡
-interleaving; 🟡
-parallelism; 🟡
-Exceptions;
+[[+ cpu architecture]] — Von Neumann, datapath, control unit, ALU, registers
 
-## 9 Device Programming
-device programming; 🟡
+[[+ instruction execution]] — clocking, pipelining, hazards, branch prediction
 
-## 10 Program Optimization
-rearranging code; 🟢
-Benchmarks/Power/Performance optimizations; [[10 Performance]] 🟢
+[[+ memory system]] — memory hierarchy, cache, main memory, virtual memory, disk
+
+[[+ processes and os]] — process model, user/kernel mode, context switching
+
+[[+ parallelism]] — ILP, SIMD, MIMD, Flynn taxonomy, multithreading
+
+[[+ performance]] — metrics, CPU equation, Amdahl's law, benchmarks, power wall
+
+[[+ io and device management]] — exceptions, interrupts, DMA, I/O control
+
+---
+
+# References
