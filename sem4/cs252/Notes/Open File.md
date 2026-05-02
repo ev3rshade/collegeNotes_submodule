@@ -10,7 +10,7 @@ both **Open File Table** and **Open File Objects** are stored in the [[Kernel]]
 
 ---
 ## Open File Table
-list of all files that are opened in the [[Process]] table
+list of all files that are opened in the [[+ process]] table
 
 each open file descriptor entry contains a pointer to an open file object
 

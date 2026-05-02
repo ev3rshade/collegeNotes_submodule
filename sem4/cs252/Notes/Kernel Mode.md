@@ -2,7 +2,7 @@ Opened 03-25-2026 08:57
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ computer architecture|+ computer architecture]] [[+ operating system]]
+Tags: [[6 Full Notes/collegeNotes_submodule/sem4/cs252/Notes/+ computer architecture|+ computer architecture]] [[+ operating system]]
 
 # Kernel Mode
 when CPU runs in this mode

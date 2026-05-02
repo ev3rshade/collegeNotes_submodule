@@ -66,7 +66,12 @@ usually keyboard and the terminal, but can be redirected
 
 
 
+---
+## Execution
 
+**CPU Bursts**
+shorter periods of time that a process needs the cpu
+![[Screenshot_20260429_151657.png]]
 
 
 

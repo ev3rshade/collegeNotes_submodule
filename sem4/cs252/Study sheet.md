@@ -1,5 +1,10 @@
 [[cs252 Exam]]
 
+## Final Exam
+
+WRITE BASH SCRIPTS TO LEARN COMMANDS
+
+
 Program structure - last revised 03/06/2026
 - address space still confusing
 

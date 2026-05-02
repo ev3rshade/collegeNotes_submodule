@@ -2,7 +2,7 @@ Opened 03-25-2026 08:59
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/+ computer architecture|+ computer architecture]]
+Tags: [[6 Full Notes/collegeNotes_submodule/sem4/cs252/Notes/+ computer architecture|+ computer architecture]]
 
 # User Mode
 when the CPU runs in this mode
