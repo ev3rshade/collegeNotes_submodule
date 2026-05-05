@@ -32,5 +32,5 @@ bison
 
 ---
 # References
-https://www.youtube.com/watch?v=yTXCPGAD3SQ
-https://sotoxx14.neocities.org/flex/Multiple-Input-Buffers#Multiple-Input-Buffers
+1 https://www.youtube.com/watch?v=yTXCPGAD3SQ
+2 https://sotoxx14.neocities.org/flex/Multiple-Input-Buffers#Multiple-Input-Buffers

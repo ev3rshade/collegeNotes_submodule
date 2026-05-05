@@ -2,9 +2,7 @@ Opened 02-23-2026 08:47
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|+ bash]]
-
-prev: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|+ bash]]
+Tags: [[bash]]
 
 # bash ex count-files.sh
 

@@ -2,7 +2,7 @@ Opened 01-28-2026 08:52
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/Assembly]]
+Tags: [[6 Full Notes/collegeNotes_submodule/sem4/cs252/Notes/Assembly|Assembly]]
 
 # Tips for Coding in Assembly
 

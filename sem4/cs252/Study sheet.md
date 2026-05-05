@@ -5,6 +5,23 @@
 WRITE BASH SCRIPTS TO LEARN COMMANDS
 
 
+
+PLAN
+- write notes on
+	- [ ] + computer network
+	- [ ] Transmission Protocols
+	- [x] TCP
+	- [x] UDP
+	- [ ] DHCP
+	- [ ] DNS
+	- [ ] IP
+	- [ ] NAT
+- generate a full practice exam based on all the slides up until SQL
+
+
+
+
+
 Program structure - last revised 03/06/2026
 - address space still confusing
 
@@ -25,6 +42,8 @@ Bash - last revised 02/25/2026
 bash --> the last problem on the hw
 shell --> subshells
 assembly
+parallel computing, processors
+clusters, computer networks
 
 
 ---
@@ -34,3 +53,10 @@ Notes organization
 
 unread slides 100 - 245
 last slide - 269
+
+
+
+## Mistakes
+
+1. Cost of scaling parallel computer systems with respect to number of processors
+2. 

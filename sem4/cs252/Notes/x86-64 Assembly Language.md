@@ -2,9 +2,8 @@ Opened 01-19-2026 14:24
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/Assembly]]
+Tags: [[6 Full Notes/collegeNotes_submodule/sem4/cs252/Notes/Assembly|Assembly]]
 
-Prev Note:  [Assembly](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2F%F0%9F%94%B4%20Assembly) Next Note: [x86-64 Register View](obsidian://open?vault=Ken%201.0&file=6%20Full%20Notes%2FCollege%20Notes%2FSem%204%2FCS252%2FNotes%2Fx86-64%20Register%20View)
 # x86-64 Assembly Language
 
 made by AMD to extend the x86 architecture to use 64 bits (migration to x86-64 bits)

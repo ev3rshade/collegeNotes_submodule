@@ -2,7 +2,7 @@ Opened 02-16-2026 15:08
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/gdb|gdb]] [[x86-64 Assembly Language]]
+Tags: [[6 Full Notes/collegeNotes_submodule/sem4/cs252/Notes/gdb|gdb]] [[x86-64 Assembly Language]]
 
 # lab0
 

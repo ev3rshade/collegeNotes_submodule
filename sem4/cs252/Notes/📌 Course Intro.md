@@ -28,4 +28,3 @@ an intermediary between the OS and software (kernel)
 # References
 [systems programming course intro primer](https://www.youtube.com/watch?v=Q2r_Irk5xJE&list=PL5EHbN4UZHpQkNZZwnPOl4G2g5YAVclTW&index=1)
 [[CS252-Slides-Sprin2026.pdf]] Slides 1-9
-[[Chapter0-TableofContentsandIntroduction.pdf]]

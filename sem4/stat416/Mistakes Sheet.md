@@ -25,4 +25,5 @@ Final Practice
 - Marginal is just integral after isolating a variable
 - Exchangability
 - Conditions for WLLN
-- 
+- GEOMETRIC DISTRIBUTION FOR TESTS --> there are chances that an individual won't pass the tests
+- Square root variance

@@ -33,7 +33,7 @@ fastest
 **Cache**
 **RAM**
 **Flash Memory**
-**[[6 Full Notes/College Notes/sem4/cs252/Notes/Disk|Disk]]**
+**[[6 Full Notes/collegeNotes_submodule/sem4/cs252/Notes/Disk|Disk]]**
 **CD/DVD**
 **Tape**
 **Network Storage**

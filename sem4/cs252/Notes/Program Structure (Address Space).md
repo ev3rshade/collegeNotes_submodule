@@ -119,4 +119,3 @@ main() {
 ---
 # References
 [[CS252-Slides-Sprin2026.pdf]] - Slides 9-16
-[[Chapter1-ProgramStructure.pdf]]

@@ -12,4 +12,6 @@ Tags:
 [[+ csp]]
 [[+ logic]]
 
+[[+ probability]]
+[[+ bayesian networks]]
 # References

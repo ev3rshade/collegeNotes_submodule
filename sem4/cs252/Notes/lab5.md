@@ -2,7 +2,7 @@ Opened 04-25-2026 10:47
 
 Status:
 
-Tags:
+Tags: [[HTTP]] [[Sockets and Ports]]
 
 # lab5
 

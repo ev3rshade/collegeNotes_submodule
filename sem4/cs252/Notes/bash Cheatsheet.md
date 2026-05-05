@@ -2,7 +2,7 @@ Opened 03-27-2026 09:58
 
 Status:
 
-Tags: [[6 Full Notes/College Notes/sem4/cs252/Notes/bash|bash]]
+Tags: [[bash]]
 
 # bash Cheatsheet
 
